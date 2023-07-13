@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Noto+Sans:wght@300&display=swap');
+
+*{
+    font-family: 'Lora', serif;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --padding-container: 100px 0;
+    --color-title: #001A59;
+}
+
+.coma{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+}
+
+.hero{
+    width: 100%;
+    max-height: 800px;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+    color: #000;    
+    background-color: rgb(245,245,245);
+}
+
+
+.dav{
+    --padding-container:0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.dav__logo img{
+    width: 100px;
+    display: flex;
+    vertical-align: middle;
+    float: left;
+}
+
+
+.dav__title {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.dav__link {
+    margin-left: auto;
+    padding: 0;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: max-content;
+    gap: 2em; 
+   
+}
+
+.dav__items {
+    list-style: none;
+    font-size: 20px;
+    
+}
+
+.dav__links {
+    color: #000;
+    text-decoration: none;
+    transition: all ease .3s;
+}
+
+.dav__links:hover{
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.cartas{
+    padding: 50px 12px;
+    background-color: rgb(30,30,30);
+    box-shadow: 100 100 10px red;
+    color: #fff;
+}
+
+.sec{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sec .pta{
+    display: inline-block;
+    background-color:blueviolet;
+    justify-self: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 13px 30px;
+    border-radius: 32px;
+    transition: all ease .3s;
+}
+
+.pta:hover{
+    background-color: rgb(62, 21, 99);
+}
+
+.contenedor1{
+    display: flex;
+}
+
+.contenedor2{
+    display: flex;
+}
+
+.cartas h2{
+    margin-top: 0;
+    font-size: 3.2em;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.conte{
+    height:410px ;
+    width: 30%;
+    margin: 0 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card img:hover{
+    transform: scale(1);
+}
+
+.conte .card{
+    height: 100px;
+    width: 100%;
+    margin-bottom: 170px;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.card img{
+    margin: auto;
+    display: block;
+    transform: scale(0.7);
+    transition: all ease .2s;
+}
+
+.toyota img{
+    height: 220px;
+    width: 300px;
+}
+
+.honda img{
+    height: 220px;
+    width: 300px;
+}
+
+.kia img{
+    height: 220px;
+    width: 300px;
+}
+
+.subaru img{
+    height: 220px;
+    width: 300px;
+}
+
+.mercedes img{
+    height: 220px;
+    width: 250px;
+}
+
+.yundai img{
+    height: 220px;
+    width: 300px;
+}
+
+.informacion{
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+}
+
+.informacion a{
+    font-size: 3.2em;
+    color: #fff;
+    margin-bottom: -50px;
+}
+
+.informacion a:hover{
+    color: #001A59;
+    transition: 0.3s;
+}
+
+footer{
+    background-color: #111;
+    list-style: none;
+}
+
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color:white ;
+    margin: 10px;
+    border-radius: 40%;
+}
+
+.socialIcons a i{
+    font-size: 2em;
+    color: #000;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover{
+    background-color:#111111;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i{
+    color: blueviolet;
+    transition: 0.5s;
+}
+
+
+.footerNav{
+    margin: 30px 0;
+}
+
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.footerNav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+
+.footerBottom{
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p{
+    color: white;
+}
+
+
+
+ .designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+ }
+
